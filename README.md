@@ -59,10 +59,6 @@ Here are some potential features that could be added to improve the project:
 
 - **SawabS** - Creator of the project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 We hope you enjoy contributing to this project and look forward to your valuable input!
