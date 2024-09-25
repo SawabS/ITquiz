@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.quiz-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #262626;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 5px #121212;
+}
+
+header h1 {
+    color: #00ffff; 
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 10px #00ffff;
+}
+
+footer {
+    margin-top: 20px;
+    color: #888;
+}
+
+/* Quiz layout */
+#quiz {
+    margin-top: 20px;
+}
+
+#question {
+    font-size: 1.5rem;
+    color: #ffffff; /* Change question color to white */
+}
+
+.button-container {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Align buttons to the left */
+}
+
+.button-container li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.answer-label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #00ffff; /* Label color: neon blue */
+}
+
+.btn {
+    background-color: transparent; /* Remove background color */
+    color: #ffffff; /* Default color: white */
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: left; /* Align text left */
+    display: inline-block;
+    width: 100%;
+}
+
+/* Selected answer turns blue */
+.btn.selected {
+    color: #007bff; /* Blue color for selected answer */
+}
+
+.btn:hover {
+    color: #00ff99; /* Hover effect */
+}
+
+#next-btn {
+    display: none;
+    background-color: #ff6600; /* Blue background for Next button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold; /* Bold text for the Next button */
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
